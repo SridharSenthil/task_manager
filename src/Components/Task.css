@@ -1,0 +1,80 @@
+.task-container {
+  background-color: #f9f5e1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  margin-top: 20px;
+}
+
+.task-container:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0;
+  margin-top: 1px;
+  border-bottom: 1px solid #e1e1e1;
+}
+  
+li:last-child {
+  border-bottom: none;
+}
+  
+.task-text {
+  font-size: 16px;
+  font-family: 'Georgia', serif;
+  color: #333;
+  flex-grow: 1;
+  transition: text-decoration 0.3s ease;
+}
+
+button {
+  background-color: rgb(231, 204, 68);
+  color: black;
+  border: none;
+  padding: 6px 12px;
+  margin: 0 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: rgb(178, 154, 31);
+}
+
+button:active {
+    background-color: rgb(217, 201, 120);
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+button.edit-btn {
+  background-color: #ff9800;
+}
+
+button.edit-btn:hover {
+  background-color: #fb8c00;
+}
+
+button.delete-btn {
+  background-color: #f44336;
+}
+
+button.delete-btn:hover {
+  background-color: #d32f2f;
+}

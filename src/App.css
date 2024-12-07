@@ -1,0 +1,16 @@
+body {
+    background: url('/public/assets/Background.webp');
+    background-size: 100%; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh;
+    margin: 0;
+}
+
+.task-heading{
+    position: absolute;
+    left: 76%;
+    color: rgb(231, 204, 68);
+    font-size: 1cm;
+    padding-left: 50px;
+}

@@ -1,0 +1,22 @@
+.task-list{
+    position: absolute;
+    top: 12%;
+    left: 75%;
+    gap: 10px;
+}
+
+.scrollable-list {
+    height: 470px;
+    width: 383px; 
+    overflow-y: scroll;  
+    border: none;
+    padding: 10px;  
+}
+
+.text{
+    color: aliceblue;
+    font-weight: bold;
+    padding-left: 65px;
+    margin-top: 5cm;
+    font-size: 0.5cm;
+}
